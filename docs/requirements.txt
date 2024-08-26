@@ -20,7 +20,7 @@ beautifulsoup4==4.10.0 \
     --hash=sha256:9a315ce70049920ea4572a4055bc4bd700c940521d36fc858205ad4fcde149bf \
     --hash=sha256:c23ad23c521d818955a4151a67d81580319d4bf548d3d49f4223ae041ff98891
     # via furo
-certifi==2022.12.7 \
+certifi==2024.7.4 \
     --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3 \
     --hash=sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18
     # via requests
@@ -47,7 +47,7 @@ furo==2022.4.7 \
     --hash=sha256:7f3e3d2fb977483590f8ecb2c2cd511bd82661b79c18efb24de9558bc9cdf2d7 \
     --hash=sha256:96204ab7cd047e4b6c523996e0279c4c629a8fc31f4f109b2efd470c17f49c80
     # via -r docs/requirements.in
-idna==3.3 \
+idna==3.7 \
     --hash=sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff \
     --hash=sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d
     # via requests
@@ -59,7 +59,7 @@ incremental==21.3.0 \
     --hash=sha256:02f5de5aff48f6b9f665d99d48bfc7ec03b6e3943210de7cfc88856d755d6f57 \
     --hash=sha256:92014aebc6a20b78a8084cdd5645eeaa7f74b8933f70fa3ada2cfbd1e3b54321
     # via towncrier
-jinja2==3.0.3 \
+jinja2==3.1.4 \
     --hash=sha256:077ce6014f7b40d03b47d1f1ca4b0fc8328a692bd284016f806ed0eaca390ad8 \
     --hash=sha256:611bb273cd68f3b993fabdc4064fc858c5b47a973cb5aa7999ec1ba405c87cd7
     # via
@@ -70,7 +70,7 @@ linkify-it-py==1.0.2 \
     --hash=sha256:4f416e72a41d9a00ecf1270ffb28b033318e458ac1144eb7c326563968a5dd24 \
     --hash=sha256:6c37ef4fc3001b38bc2359ccb5dc7e54388ec5d54fe46d2dbcd9a081f90fdbe3
     # via myst-parser
-markdown-it-py==1.1.0 \
+markdown-it-py==2.2.0 \
     --hash=sha256:36be6bb3ad987bfdb839f5ba78ddf094552ca38ccbd784ae4f74a4e1419fc6e3 \
     --hash=sha256:98080fc0bc34c4f2bcf0846a096a9429acbd9d5d8e67ed34026c03c61c464389
     # via
@@ -165,7 +165,7 @@ pbr==5.7.0 \
     --hash=sha256:4651ca1445e80f2781827305de3d76b3ce53195f2227762684eb08f17bc473b7 \
     --hash=sha256:60002958e459b195e8dbe61bf22bcf344eedf1b4e03a321a5414feb15566100c
     # via sphinxcontrib-apidoc
-pygments==2.10.0 \
+pygments==2.15.0 \
     --hash=sha256:b8e67fe6af78f492b3c4b3e2970c0624cbf08beb1e493b2c99b9fa1b67a20380 \
     --hash=sha256:f398865f7eb6874156579fdf36bc840a03cab64d1cde9e93d68f46a425ec52c6
     # via
@@ -179,7 +179,7 @@ pytz==2021.3 \
     --hash=sha256:3672058bc3453457b622aab7a1c3bfd5ab0bdae451512f6cf25f64ed37f5b87c \
     --hash=sha256:acad2d8b20a1af07d4e4c9d2e9285c5ed9104354062f275f3fcd88dcef4f1326
     # via babel
-pyyaml==5.3.1 \
+pyyaml==5.4 \
     --hash=sha256:06a0d7ba600ce0b2d2fe2e78453a470b5a6e000a985dd4a4e54e436cc36b0e97 \
     --hash=sha256:240097ff019d7c70a4922b6869d8a86407758333f02203e0fc6ff79c5dcede76 \
     --hash=sha256:4f4b913ca1a7319b33cfb1369e91e50354d6f07a135f3b901aca02aa95940bd2 \
@@ -196,7 +196,7 @@ pyyaml==5.3.1 \
     # via
     #   -r docs/requirements.in
     #   myst-parser
-requests==2.26.0 \
+requests==2.32.2 \
     --hash=sha256:6c1246513ecd5ecd4528a0906f910e8f0f9c6b8ec72030dc9fd154dc1a6efd24 \
     --hash=sha256:b8aa58f8cf793ffd8782d3d8cb19e66ef36f7aba4353eec859e74678b01b07a7
     # via sphinx
@@ -285,15 +285,16 @@ uc-micro-py==1.0.1 \
     --hash=sha256:316cfb8b6862a0f1d03540f0ae6e7b033ff1fa0ddbe60c12cbe0d4cec846a69f \
     --hash=sha256:b7cdf4ea79433043ddfe2c82210208f26f7962c0cfbe3bacb05ee879a7fdb596
     # via linkify-it-py
-urllib3==1.26.7 \
+urllib3==1.26.19 \
     --hash=sha256:4987c65554f7a2dbf30c18fd48778ef124af6fab771a377103da0585e2336ece \
     --hash=sha256:c4fdf4019605b6e5423637e01bc9fe4daef873709a7973e195ceba0a62bbc844
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==59.0.1 \
+setuptools==70.0.0 \
     --hash=sha256:899d27ec8104a68d4ba813b1afd66708a1a10e9391e79be92c8c60f9c77d05e5 \
     --hash=sha256:dedb38ba61844d9df36072dad313cb79426fd50497aaac9c0da4cd50dbeeb110
     # via
     #   setuptools-scm
     #   sphinx
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
