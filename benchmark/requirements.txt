@@ -6,3 +6,4 @@ aiohttp==3.10.2
 starlette==0.19.1
 tornado==6.1
 uvicorn==0.16.0
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
