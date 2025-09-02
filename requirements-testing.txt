@@ -27,7 +27,7 @@ rope==1.1.1
 # Required by test_http2.py
 httpx==0.22.0; python_version < '3.11'
 httpx==0.27.0; python_version >= '3.11'
-h2==4.1.0
+h2==4.3.0
 hpack==4.0.0
 hyperframe==6.0.1
 pre-commit==2.16.0
