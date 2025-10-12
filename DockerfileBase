@@ -1,4 +1,4 @@
-FROM python:3.12.0a1-alpine
+FROM python:3.14.0-alpine
 
 LABEL com.abhinavsingh.name="abhinavsingh/proxy.py" \
     org.opencontainers.image.title="proxy.py" \
